@@ -1,0 +1,16 @@
+body {
+  text-align: left; 
+}
+
+
+.facts-list li {
+  display: block;   
+  margin: 8px 0;
+}
+
+
+.highlight {
+  background: #ffeef7;
+  border-left: 4px solid pink;
+  padding: 6px 10px;
+}

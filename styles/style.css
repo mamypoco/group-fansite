@@ -3,4 +3,22 @@ body {
     margin: 0; 
     padding: 0; 
     background-color: #f4f4f4; 
+    text-align: center;
 }
+
+h1 {
+    color: pink;
+    font-family: fantasy;
+}
+
+li {
+    display: inline;
+    margin: 5px;
+}
+
+footer {
+    color: pink;
+    margin-top: 100px;
+    font-weight: bold;
+}
+

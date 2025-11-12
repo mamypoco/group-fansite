@@ -1,7 +1,9 @@
 .short-bio {
     padding: 50px;
     text-align: center;
-    border: 2px solid black;
+    font-size: 25px;
+    border: 2px solid #6a5acd;
+    margin-inline: 20px;
 }
 
 
@@ -27,4 +29,10 @@ nav a {
   font-size: 1.1rem;
   text-decoration: none;
   margin: 0 8px;
+}
+.home-page-figure {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 400px;
 }

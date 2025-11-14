@@ -1,54 +1,56 @@
-
 main {
-    text-align: center;
+  text-align: center;
 }
-
 
 h2 {
-    text-align: center;
-    color: #444;
+  text-align: center;
+  color: #444;
 }
 
-
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.two-landscapes {
+  gap: 1rem;
+}
+
+.landscape-fit {
+  margin-bottom: 1rem;
 }
 
 .figure {
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
-    width: 250px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
 }
 
 .figure img {
-    width: 100%;
-    border-radius: 8px;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .figure figcaption {
-    margin-top: 8px;
-    font-style: italic;
-    font-size: 0.9rem;
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 0.9rem;
 }
 
 body {
-    text-align: center; 
+  text-align: center;
 }
-
 
 .facts-list li {
-    display: block;   
-    margin: 8px 0;
+  display: block;
+  margin: 8px 0;
 }
 
-
 .highlight {
-    background: #ffeef7;
-    border-left: 4px solid pink;
-    padding: 6px 10px;
+  background: #ffeef7;
+  border-left: 4px solid pink;
+  padding: 6px 10px;
 }

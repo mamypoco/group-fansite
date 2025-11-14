@@ -2,5 +2,12 @@
     "liveServer.settings.port": 5502,
     "github.gitAuthentication": true,
     "liveshare.guestApprovalRequired": false,
-    "liveshare.anonymousGuestApproval": "accept"
+    "liveshare.anonymousGuestApproval": "accept",
+    "editor.defaultFormatter": null,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }

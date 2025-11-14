@@ -5,8 +5,56 @@ h2 {
     text-align: center;
 }
 
-
+/* 
 p {
     font-size: 1.05em;
     background-color: #fff8e1;
+} */
+
+
+/* Grid Container */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    /* padding: 40px 20px; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid Items  */
+article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1 em;
+    line-height: 1.5;
+    text-align: justify;
+    /* margin: 15px 0; */
+}
+
+/* Date styling */
+.date {
+    color: #250435;
+    font-style: italic;
+    font-size: 0.9em;
+    background-color: rgb(236, 126, 186);
+    text-align: center;
+}
+
+p,h2,h3 {
+    background-color: white;
+}
+
+
+img.journal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }

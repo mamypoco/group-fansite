@@ -45,16 +45,28 @@ p {
     font-size: 0.9em;
     background-color: rgb(236, 126, 186);
     text-align: center;
+    border-radius: 5px;
 }
 
-p,h2,h3 {
+.article-header-flex,p,h2,h3 {
     background-color: white;
 }
 
-
-img.journal-image {
+.journal-image {
     width: 100%;
-    height: auto;
     border-radius: 15px;
-    margin-bottom: 15px;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Flexbox Container for Article Header */
+.article-header-flex {
+    /*  Sets the div as the Flex Container */
+    display: flex; 
+    flex-direction: row-reverse;
+    /* Aligns items in the center */
+    align-items: center; 
+    /* put the date to the right side*/
+    justify-content: space-between; 
+    
 }

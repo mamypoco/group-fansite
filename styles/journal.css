@@ -1,8 +1,8 @@
 h2 {
-    font-family: Georgia;
-    font-style: italic;
-    color: #4a2d1d;
-    text-align: center;
+  font-family: Georgia;
+  font-style: italic;
+  color: #4a2d1d;
+  text-align: center;
 }
 
 /* 
@@ -11,62 +11,63 @@ p {
     background-color: #fff8e1;
 } */
 
-
 /* Grid Container */
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    /* padding: 40px 20px; */
-    max-width: 1200px;
-    margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  /* padding: 40px 20px; */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Grid Items  */
 article {
-    background-color: white;
-    padding: 25px;
-    border-radius: 20px;
-    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
 }
 
 /* Paragraph styles */
 p {
-    font-size: 1 em;
-    line-height: 1.5;
-    text-align: justify;
-    /* margin: 15px 0; */
+  font-size: 1 em;
+  line-height: 1.5;
+  text-align: justify;
+  /* margin: 15px 0; */
 }
 
 /* Date styling */
 .date {
-    color: #250435;
-    font-style: italic;
-    font-size: 0.9em;
-    background-color: rgb(236, 126, 186);
-    text-align: center;
-    border-radius: 5px;
+  color: #250435;
+  font-style: italic;
+  font-size: 0.9em;
+  background-color: #ec7eba;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.article-header-flex,p,h2,h3 {
-    background-color: white;
+.article-header-flex,
+p,
+h2,
+h3 {
+  background-color: white;
 }
 
 .journal-image {
-    width: 100%;
-    border-radius: 15px;
-    display: block;
-    margin: 15px 0;
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+  margin: 15px 0;
 }
 
 /* Flexbox Container for Article Header */
 .article-header-flex {
-    /*  Sets the div as the Flex Container */
-    display: flex; 
-    flex-direction: row-reverse;
-    /* Aligns items in the center */
-    align-items: center; 
-    /* put the date to the right side*/
-    justify-content: space-between; 
-    
+  /*  Sets the div as the Flex Container */
+  display: flex;
+  flex-direction: row-reverse;
+  /* Aligns items in the center */
+  align-items: center;
+  /* put the date to the right side*/
+  justify-content: space-between;
 }

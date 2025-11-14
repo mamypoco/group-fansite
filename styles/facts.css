@@ -22,40 +22,38 @@
   /*column-gap: 0px;*/
   gap: 20px;
   text-align: center;
-
-
 }
 
-  article {
+article {
   background: white;
   padding: 1.5rem;
   border-radius: 20px;
   justify-content: space-between;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-  text-align: center ;
-}        
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
 
 .highlight {
   background: #ffece5;
   border-left: 4px solid pink;
   padding: 6px 10px;
   border-radius: 5px;
-  width: fit-content;       
-  margin: 10px auto;          
+  width: fit-content;
+  margin: 10px auto;
 }
 .facts-images {
-  background-color:white;
-/*  grid-column: 2/3; */
+  background-color: white;
+  /*  grid-column: 2/3; */
   width: 300px;
   height: auto;
   border-radius: 12px;
   display: block;
-  margin: 0 auto 10px; 
+  margin: 0 auto 10px;
   padding: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 p {
-/*  grid-column: 1/2; */
+  /*  grid-column: 1/2; */
   background: white;
   text-align: left;
   font-size: 1em;
@@ -65,10 +63,8 @@ h2 {
   text-align: left;
   font-style: italic;
   font-size: 1.5em;
-  color: purple;
+  color: #551a8b;
 }
-
-
 
 /* li {
   list-style: none;

@@ -4,16 +4,24 @@
 
 
 body { 
-    font-family: Arial, sans-serif; 
+    font-family: "Barrio", system-ui; 
     margin: 0; 
     padding: 0; 
     /* background-color: #E8E8E8;  */
-    text-align: center;
+    text-align: center ;
 }
 
-.header-section {
+
+/* .header-section {
     display: flex;
-    margin-left: 30%
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 30px;
+} */
+
+header {
+    text-align: center;
 }
 
 .home-page-icon {
@@ -23,6 +31,8 @@ body {
 h1 {
     color: pink;
     font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
 }
 
 li {

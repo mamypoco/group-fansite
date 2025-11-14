@@ -26,6 +26,10 @@ header {
   width: 100px;
 }
 
+header {
+  margin-bottom: 2rem;
+}
+
 nav a {
   font-size: 1.1rem;
   text-decoration: none;
@@ -42,7 +46,6 @@ h1 {
 li {
   display: inline;
   margin: 5px;
-  /* padding-left: 25px; */
 }
 
 footer {
@@ -50,7 +53,3 @@ footer {
   margin-top: 30px;
   font-weight: bold;
 }
-
-/* .facts-title {
-    text-align: center;
-} */

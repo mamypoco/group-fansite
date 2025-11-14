@@ -27,6 +27,7 @@ h2 {
   padding: 10px;
   border-radius: 8px;
   width: 250px;
+  text-align: center;
 }
 
 .figure img {
@@ -47,10 +48,12 @@ body {
 .facts-list li {
   display: block;
   margin: 8px 0;
+  text-align: center;
 }
 
 .highlight {
   background: #ffeef7;
   border-left: 4px solid pink;
   padding: 6px 10px;
+  text-align: center;
 }

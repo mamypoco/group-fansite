@@ -1,38 +1,32 @@
 .short-bio {
-    padding: 50px;
-    text-align: center;
-    font-size: 25px;
-    border: 2px solid #6a5acd;
-    margin-inline: 20px;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid #6a5acd;
+  margin-inline: 20px;
 }
 
-
-
-ul{
-    list-style-type: circle;
-    padding-left: 25px;
+ul {
+  list-style-type: circle;
+  padding-left: 25px;
 }
 
-
-h1 {
+/* h1 {
   color: #6a5acd;
-}
-
-
+} */
 
 .header-hero {
   padding: 2rem 1rem;
 }
 
-
-nav a {
+/* nav a {
   font-size: 1.1rem;
   text-decoration: none;
   margin: 0 8px;
-}
+} */
 .home-page-figure {
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
-    width: 400px;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 400px;
 }

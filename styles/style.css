@@ -1,16 +1,14 @@
 * {
-    background-color: #E8E8E8;
-} 
-
-
-body { 
-    font-family: "Barrio", system-ui; 
-    margin: 0; 
-    padding: 0; 
-    /* background-color: #E8E8E8;  */
-    text-align: center ;
+  background-color: #e8e8e8;
 }
 
+body {
+  font-family: "Barrio", system-ui;
+  margin: 0;
+  padding: 0;
+  /* background-color: #E8E8E8;  */
+  text-align: center;
+}
 
 /* .header-section {
     display: flex;
@@ -21,28 +19,38 @@ body {
 } */
 
 header {
-    text-align: center;
+  text-align: center;
 }
 
 .home-page-icon {
-    width: 100px;
+  width: 100px;
+}
+
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 8px;
 }
 
 h1 {
-    color: pink;
-    font-family: fantasy;
-    font-size: 50px;
-    text-align: center;
+  color: #6a5acd;
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
 }
 
 li {
-    display: inline;
-    margin: 5px;
+  display: inline;
+  margin: 5px;
+  /* padding-left: 25px; */
 }
 
 footer {
-    color: #6a5acd;
-    margin-top: 30px;
-    font-weight: bold;
+  color: #6a5acd;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
+/* .facts-title {
+    text-align: center;
+} */

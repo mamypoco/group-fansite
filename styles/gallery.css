@@ -11,49 +11,26 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
   margin-top: 20px;
 }
-.two-landscapes {
-  gap: 1rem;
+
+figure a {
+  text-decoration: none;
 }
 
-.landscape-fit {
-  margin-bottom: 1rem;
-}
-
-.figure {
+.figure-img {
   background: white;
   padding: 10px;
   border-radius: 8px;
   width: 250px;
   text-align: center;
+  transition: transform 0.3s ease;
 }
 
-.figure img {
-  width: 100%;
-  border-radius: 8px;
+.figure-img:hover {
+  transform: scale(1.05); /* zoom in slightly */
 }
 
-.figure figcaption {
-  margin-top: 8px;
+figcaption {
   font-style: italic;
-  font-size: 0.9rem;
-}
-
-body {
-  text-align: center;
-}
-
-.facts-list li {
-  display: block;
-  margin: 8px 0;
-  text-align: center;
-}
-
-.highlight {
-  background: #ffeef7;
-  border-left: 4px solid pink;
-  padding: 6px 10px;
-  text-align: center;
 }

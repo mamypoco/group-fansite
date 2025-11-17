@@ -10,20 +10,30 @@ body {
   text-align: center;
 }
 
-/* .header-section {
+.header-section {
     display: flex;
+    flex-direction: column;;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
-    padding: 30px;
-} */
+    padding: 20px 0;
+}
 
 header {
   text-align: center;
 }
 
 .home-page-icon {
-  width: 100px;
+  width: 80px;
+  margin-bottom: 0;
+}
+
+.site-title {
+  font-family: "Chewy", cursive;
+  font-size: 60px;
+  color: #6a5acd;
+  margin: 0;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
 header {
@@ -38,9 +48,11 @@ nav a {
 
 h1 {
   color: #6a5acd;
-  font-family: fantasy;
+  font-family: "Chewy", cursive;
   font-size: 50px;
   text-align: center;
+  margin : 0;
+  padding: 0;
 }
 
 li {

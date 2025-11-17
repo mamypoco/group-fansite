@@ -1,0 +1,36 @@
+main {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #444;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+figure a {
+  text-decoration: none;
+}
+
+.figure-img {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.figure-img:hover {
+  transform: scale(1.05); /* zoom in slightly */
+}
+
+figcaption {
+  font-style: italic;
+}

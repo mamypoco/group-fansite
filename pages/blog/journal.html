@@ -4,38 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dog Journal</title>
-    <link href="styles/style.css" rel="stylesheet" />
-    <link href="styles/journal.css" rel="stylesheet" />
+    <link href="../../styles/journal.css" rel="stylesheet" />
+    <link href="../../styles/style.css" rel="stylesheet" />
 </head>
 <body>
     <header>
-        <h1>Dog Blog - Journal</h1>
+        <div class="header-section">
+            <img class="home-page-icon" alt="home-page-icon" src="../../assets/theo_nbg.png">
+    
+            <h1>Dog Blog - Journal</h1>
+        </div>
         <nav>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="facts.html">Dog facts</a></li>
-                <li><a href="gallery.html">Dog Galery</a></li>
-                <li><a href="blog/journal.html">Dog blog</a></li>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../facts.html">Dog facts</a></li>
+                <li><a href="../gallery.html">Dog Galery</a></li>
+                <li><a href="journal.html">Dog blog</a></li>
             </ul>
         </nav>
         
     </header>
 
+       <!-- Grid Container -->
     <main>
-        <h2>Dog Journal</h2>
-
+        <!-- Grid Item 1 -->
         <article>
-            <h3>
-                Morning walks
-            </h3>
-            <p>
-                Today we went for a walk at the park!
-            </p>
+            <!-- wrap the Title and the date into a Flexbox container -->
+            <div class="article-header-flex">
+                <h3>🌲Morning Walks</h3>
+                <p class="date">Nov 10th</p>
+            </div>
+            <img src="../../assets/dog_by_lake.jpg" alt="Dog walking by the lake" class="journal-image">
+            <p>We visited the lake today! Gina tried to chase her reflection in the water and ended up splashing everyone around. She looked so proud of herself, tail wagging like crazy. 🌊🐕</p>
+        </article>
+
+        <!-- Grid Item 2 -->
+        <article>
+            <div class="article-header-flex">
+                <h3>🏠Afternoon Chill</h3>
+                <p class="date">Nov 11th</p>
+            </div>
+            <img src="../../assets/dog_and_rain.jpg" alt="Dog watching rain" class="journal-image">
+            <p>It rained all Afternoon, so Gina curled up in her blanket and watched the raindrops from the window. We shared a quiet moment and a few treats — cozy days are the best days. ☔🦴</p>
+        </article>
+
+        <!-- Grid Item 3 -->
+        <article>
+            <div class="article-header-flex">
+                <h3>🌛Evening Playing</h3>
+                <p class="date">Nov 12th</p>
+            </div>
+            <img src="../../assets/dog_with_friends.jpg" alt="Dog with friends" class="journal-image">            
+            <p>In the evening, at the park, Gina met two new buddies — a corgi and a golden retriever! They ran in circles until everyone was too tired to move. She came home covered in grass but happy as ever. 🐾🌳</p>
         </article>
 
     </main>
     <footer>
-      &copy;2025 Dog Fansite created by our group Gina | Geetha | Helen | Mami
+        &copy;2025 Dog Fansite created by our group Gina | Geetha | Helen | Mami
     </footer>
 
 </body>

@@ -1,9 +1,10 @@
 .short-bio {
   padding: 50px;
   text-align: center;
-  font-size: 25px;
-  border: 2px solid #6a5acd;
-  margin-inline: 20px;
+  font-size: 20px;
+  border: 2px solid #ff85c2;
+  margin-inline: 150px;
+  border-radius: 15px;
 }
 
 ul {
@@ -25,8 +26,8 @@ ul {
   margin: 0 8px;
 } */
 .home-page-figure {
-  background: white;
+  background: #d3d3d3;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   width: 400px;
 }

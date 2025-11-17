@@ -1,5 +1,5 @@
 * {
-  background-color: #e8e8e8;
+  background-color: #d3d3d3;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     gap: 5px;
     align-items: center;
     padding: 20px 0;
+  
 }
 
 header {
@@ -30,10 +31,19 @@ header {
 
 .site-title {
   font-family: "Chewy", cursive;
-  font-size: 60px;
-  color: #6a5acd;
+  font-size: px;
+  color: #ff85c2;
   margin: 0;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+}
+
+.Welcome-title {
+  font-family: 'Chewy', cursive;
+  font-size: 25px;
+  color: #ff85c2;
+  margin-top: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+
 }
 
 header {

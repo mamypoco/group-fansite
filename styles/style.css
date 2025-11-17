@@ -56,6 +56,41 @@ nav a {
   margin: 0 8px;
 }
 
+/* Tira as bolinhas da lista do menu e centraliza */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cada item do menu fica lado a lado */
+nav li {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+/* Estilo dos links do menu (viram “pills”) */
+nav a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 999px;      /* deixa redondinho */
+  background-color: white;
+  color: #6a5acd;            /* roxinho que você já usa */
+  font-family: "Chewy", cursive;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+}
+
+/* Efeito quando passa o mouse */
+nav a:hover {
+  background-color: #6a5acd;
+  color: white;
+  transform: translateY(-2px);
+  transition: all 0.2s ease-in-out;
+}
+
+
 h1 {
   color: #6a5acd;
   font-family: "Chewy", cursive;
